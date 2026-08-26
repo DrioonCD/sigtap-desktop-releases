@@ -1,4 +1,4 @@
-# 🩺 SIGTAP Desktop — Releases
+# 🩺 Projeto SIGTAP - JogaeStudio - Versionador
 
 <p align="center">
   <img src="https://img.shields.io/badge/plataforma-Windows-0078D6?style=for-the-badge&logo=windows11&logoColor=white" alt="Windows" />
