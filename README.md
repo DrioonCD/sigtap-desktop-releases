@@ -1,40 +1,144 @@
-<p align="center"> <img src="https://img.shields.io/badge/plataforma-Windows-1D63E0?style=for-the-badge&logo=windows11&logoColor=white" alt="Windows" /> <img src="https://img.shields.io/badge/dados-DATASUS-1B8A4B?style=for-the-badge&logo=databricks&logoColor=white" alt="DATASUS" /> <img src="https://img.shields.io/badge/licença-uso%20pessoal-C97A1A?style=for-the-badge" alt="Licença" /> <img src="https://img.shields.io/badge/feito%20por-JogaeStudio-6D4CF0?style=for-the-badge" alt="JogaeStudio" /> </p> <h1 align="center">Consulta de dados SIGTAP</h1> <p align="center"><sub><b>JogaeStudio</b> · Versionador de releases</sub></p> <p align="center"> Aplicativo Windows para consultar a tabela <b>SIGTAP</b> (Sistema de Gerenciamento da Tabela de<br/> Procedimentos, Medicamentos e OPM do SUS) de forma <b>local e offline</b> — com dados oficiais do DATASUS. </p> <p align="center"> <a href="../../releases"><img src="https://img.shields.io/badge/baixar%20última%20versão-1D63E0?style=for-the-badge&logoColor=white" alt="Baixar" /></a> </p> <br/>
-Sobre este repositório
+<div align="center">
 
-[!IMPORTANT] Este repositório não contém código-fonte — ele existe só para hospedar as versões compiladas (releases) do aplicativo, permitindo que o próprio app verifique e baixe atualizações automaticamente.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/capa-escura.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/capa-clara.png">
+  <img src="assets/capa-escura.png" alt="Consulta de dados SIGTAP" width="860">
+</picture>
 
-Se você chegou aqui procurando o código do projeto, ele vive num repositório separado e privado.
+<br><br>
 
-<br/>
-Baixando o aplicativo
+**A Tabela de Procedimentos do SUS no seu computador.**<br>
+Rápida, offline e com dados oficiais do DATASUS.
 
-Vá até a aba Releases deste repositório e baixe a versão mais recente.
+<br>
 
-Arquivo	Quando usar
-Consulta de dados SIGTAP - Instalador.exe	Instalação normal no computador — cria atalho, abre mais rápido, atualiza sozinho.
-Consulta de dados SIGTAP.exe (portable)	Não precisa instalar — roda de qualquer pasta, inclusive um pendrive. Atualização é manual.
+<a href="../../releases/latest"><img src="assets/baixar.svg" alt="Baixar a versão mais recente" width="340"></a>
 
-[!NOTE] Nenhum dos dois exige conta ou cadastro público — o acesso é liberado individualmente pelo responsável pelo aplicativo.
+<br><br>
 
-<br/>
-Atualizações automáticas
+<a href="../../releases/latest"><img alt="Versão" src="https://img.shields.io/github/v/release/DrioonCD/sigtap-desktop-releases?style=flat-square&label=vers%C3%A3o&color=0072a8&labelColor=0b1d2a"></a>
+<img alt="Plataforma" src="https://img.shields.io/badge/plataforma-Windows-00a3b4?style=flat-square&labelColor=0b1d2a">
+<img alt="Funciona offline" src="https://img.shields.io/badge/funciona-offline-00a3b4?style=flat-square&labelColor=0b1d2a">
+<img alt="Downloads" src="https://img.shields.io/github/downloads/DrioonCD/sigtap-desktop-releases/total?style=flat-square&label=downloads&color=0072a8&labelColor=0b1d2a">
 
-[!TIP] A versão instalada verifica sozinha se existe uma versão mais nova aqui e oferece pra baixar/instalar com um clique.
+<br><br>
 
-[!NOTE] A versão portable não se autoatualiza — por natureza, ela não "vive" num lugar fixo. Para atualizar, baixe o .exe mais recente aqui e substitua o antigo.
+<img src="assets/divisor.svg" alt="" width="720">
 
-<br/>
-Sobre o projeto
+</div>
 
-Criado para facilitar o dia a dia de quem trabalha com faturamento, auditoria e gestão em saúde pública, consultando procedimentos, CIDs, CBOs, valores e regras de compatibilidade da tabela SIGTAP sem precisar estar online.
+<br>
 
-<details> <summary><b>Perguntas frequentes</b></summary> <br/>
+## Para quem é
 
-Preciso de internet pra usar o app no dia a dia? Não — a consulta é local. A internet só entra na hora de baixar ou atualizar.
+Para quem trabalha com faturamento, auditoria e gestão em saúde pública e precisa consultar a tabela SIGTAP sem depender de conexão. Procedimentos, CIDs, CBOs, valores e regras de compatibilidade ficam no seu computador, com busca imediata.
 
-Preciso criar uma conta? Não. O acesso é liberado individualmente pelo responsável pelo aplicativo.
+<br>
 
-Qual versão eu baixo? Se não tem certeza, baixe o Instalador — ele se atualiza sozinho depois.
+## O que você encontra
 
-</details> <br/>
-<p align="center"> <img src="https://img.shields.io/badge/Criado%20por-Vitor%20Correa-12161F?style=for-the-badge" alt="Vitor Correa" /> <img src="https://img.shields.io/badge/-JogaeStudio-1D63E0?style=for-the-badge" alt="JogaeStudio" /> </p>
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <b>Consulta completa</b><br>
+      <sub>Procedimentos, CIDs e CBOs com ficha detalhada, valores, financiamento, habilitações e compatibilidades.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <b>Várias competências</b><br>
+      <sub>Importe mais de uma competência e compare. O histórico mostra o que mudou em cada procedimento ao longo do tempo.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <b>Relatórios cruzados</b><br>
+      <sub>Relações entre procedimentos, CIDs, CBOs e atributos, além da formação das OCIs, com exportação para CSV, Excel e PDF.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <b>Análises prontas</b><br>
+      <sub>Rankings e perguntas frequentes já respondidos, com filtros por faixa de valor e links diretos para a ficha.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <b>Organização própria</b><br>
+      <sub>Favoritos e etiquetas criadas por você para marcar e reencontrar procedimentos do seu dia a dia.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <b>Sempre atualizado</b><br>
+      <sub>A versão instalada se atualiza sozinha. Novas competências do DATASUS entram por download ou por arquivo .zip local.</sub>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<div align="center">
+  <img src="assets/em-acao.gif" alt="Apresentação do aplicativo" width="640">
+</div>
+
+<br>
+
+<div align="center"><img src="assets/divisor.svg" alt="" width="720"></div>
+
+<br>
+
+## Instalação
+
+Abra a página de [versões](../../releases/latest) e baixe o arquivo que preferir.
+
+| Arquivo | Indicado para |
+|:--|:--|
+| **Consulta-de-dados-SIGTAP-Instalador.exe** | Uso diário. Cria atalho, abre mais rápido e se atualiza sozinho. |
+| **Consulta de dados SIGTAP.exe** | Versão portátil. Não instala, roda de qualquer pasta ou pendrive. A atualização é manual. |
+
+> [!NOTE]
+> Na dúvida, escolha o instalador.
+
+> [!IMPORTANT]
+> O acesso ao aplicativo é liberado individualmente pelo responsável. Não há cadastro público.
+
+<br>
+
+## Atualizações
+
+A versão instalada verifica este repositório ao abrir e oferece a atualização com um clique. A versão portátil não se atualiza sozinha: baixe o novo `.exe` e substitua o anterior.
+
+<br>
+
+## Perguntas frequentes
+
+<details>
+<summary><b>Preciso de internet para usar?</b></summary>
+<br>
+Não. A consulta é local. A internet só é usada para baixar competências novas e atualizar o aplicativo.
+</details>
+
+<details>
+<summary><b>Preciso criar uma conta?</b></summary>
+<br>
+Não há cadastro público. O acesso é liberado individualmente pelo responsável pelo aplicativo. Quem já tem acesso entra com o login cadastrado, e quem ainda não tem pode solicitar na própria tela de login.
+</details>
+
+<details>
+<summary><b>De onde vêm os dados?</b></summary>
+<br>
+Da Tabela Unificada de Procedimentos, Medicamentos e OPM do SUS (SIGTAP), publicada pelo DATASUS.
+</details>
+
+<details>
+<summary><b>Este repositório tem o código-fonte?</b></summary>
+<br>
+Não. Ele existe apenas para hospedar as versões compiladas e permitir que o aplicativo verifique atualizações sozinho. O código-fonte fica em um repositório privado.
+</details>
+
+<br>
+
+<div align="center">
+
+<img src="assets/divisor.svg" alt="" width="720">
+
+<br>
+
+<sub>Criado por <b>Vitor Correa</b> &nbsp;·&nbsp; <b>JogaeStudio</b></sub><br>
+<sub>Todos os direitos reservados. Dados oficiais do DATASUS.</sub>
+
+</div>
